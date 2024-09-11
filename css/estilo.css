@@ -1,0 +1,106 @@
+.caixa0 {
+    height: 700px;
+    width: 1000px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa1 {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa2 {
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+
+.caixaMenu {
+    flex: 1;
+    background-color: gray;
+    display: column;
+}
+
+#itemMenu {
+    background-color: aqua;
+    padding: 15px;
+    list-style-type: none;
+    text-decoration: dotted solid black;
+}
+
+.caixa3 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixaCabecalho {
+    background-color: black;
+    color: white;
+    flex: 1;
+}
+
+.caixa4 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.caixaArtigo {
+    background-color: darkgray;
+    flex: 1;
+}
+
+.box0 {
+    height: 300vh;
+    width: 200vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box1 {
+    height: 20vh;
+    flex: 1;
+    background-color: green;
+    color: white;
+}
+
+.box2 {
+    height: 30vh;
+    flex: 1;
+    background-color: darkgreen;
+    color: white;
+}
+
+.box3 {
+    height: 15vh;
+    flex: 1;
+    background-color: green;
+    color: white;
+}
+
+.box4 {
+    height: 35vh;
+    background-color: darkgreen;
+    flex: 1;
+    color: white;
+}
+
+.box5 {
+    height: 50vh;
+    background-color: green;
+    color: white;
+    flex: 1;
+}
+
+.box6 {
+    height: 20vh;
+    background-color: darkgreen;
+    flex: 1;
+    color: white;
+}
+
