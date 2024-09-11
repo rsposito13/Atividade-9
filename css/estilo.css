@@ -55,7 +55,7 @@
 }
 
 .box0 {
-    height: 300vh;
+    height: 500px;
     width: 200vh;
     display: flex;
     flex-direction: row;
@@ -104,3 +104,63 @@
     color: white;
 }
 
+.container1 {
+    display: flex;
+    margin: 0 auto;
+    height:600px;
+    width: 1200px;
+    flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    flex: 1;
+    background-color: darkred;
+    padding: 10px;
+}
+
+.container2 h1{
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+}
+
+.containerMenu {
+    background-color: red;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerItem ul li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color: lightcoral;
+    border: 5px solid lightcoral;
+}
+
+.containerItem a{
+    text-decoration: none;
+    color: darkred;
+}
+
+.containerAd {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    flex: 1;
+}
+
+.container5 {
+    display: flex;
+    background-color: lightsalmon;
+    flex: 2;
+    flex-direction: column;
+    padding: 10px;
+}
